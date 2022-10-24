@@ -1,0 +1,1858 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/allen/Documents/Code Challenges/StudioGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54948
+Successfully changed project path to: /Users/allen/Documents/Code Challenges/StudioGame
+/Users/allen/Documents/Code Challenges/StudioGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 30.98 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 3.48 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/allen/Documents/Code Challenges/StudioGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56705
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000554 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (377ms)
+		BeginReloadAssembly (30ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (271ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (142ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 1955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (44.5 KB). Loaded Objects now: 2422.
+Memory consumption went from 172.8 MB to 172.7 MB.
+Total: 2.572667 ms (FindLiveObjects: 0.074167 ms CreateObjectMapping: 0.028208 ms MarkObjects: 2.415166 ms  DeleteObjects: 0.054500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 661156.892192 seconds.
+  path: Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
+  artifactKey: Guid(1f4d373a613d0466fbd8849470265852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/XRControllerRight.prefab using Guid(1f4d373a613d0466fbd8849470265852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfb4b2b083fb1a7d437e1f0f3ebcfa4') in 0.210836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.994370 seconds.
+  path: Assets/ExampleAssets/Models/XRControllerRight.fbx
+  artifactKey: Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/XRControllerRight.fbx using Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e09976e9b7c59aea2ea951da30437b') in 0.144873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1058.384247 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/project-header-vr.png
+  artifactKey: Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-vr.png using Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f862936b12f1a54747a5fd982a272') in 0.704884 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2986cf000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (21.8 KB). Loaded Objects now: 2540.
+Memory consumption went from 193.6 MB to 193.6 MB.
+Total: 2.544291 ms (FindLiveObjects: 0.077417 ms CreateObjectMapping: 0.030208 ms MarkObjects: 2.413625 ms  DeleteObjects: 0.022166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002596 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (579ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.0 MB). Loaded Objects now: 2585.
+Memory consumption went from 199.1 MB to 198.2 MB.
+Total: 2.680667 ms (FindLiveObjects: 0.096958 ms CreateObjectMapping: 0.031125 ms MarkObjects: 2.282625 ms  DeleteObjects: 0.269167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004445 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (671ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 2604.
+Memory consumption went from 200.4 MB to 199.3 MB.
+Total: 2.778792 ms (FindLiveObjects: 0.082375 ms CreateObjectMapping: 0.030125 ms MarkObjects: 2.362917 ms  DeleteObjects: 0.303000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (621ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (4.7 MB). Loaded Objects now: 2702.
+Memory consumption went from 214.9 MB to 210.2 MB.
+Total: 3.495708 ms (FindLiveObjects: 0.104791 ms CreateObjectMapping: 0.031792 ms MarkObjects: 2.432416 ms  DeleteObjects: 0.925834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005605 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (6.7 MB). Loaded Objects now: 2709.
+Memory consumption went from 218.2 MB to 211.5 MB.
+Total: 3.807417 ms (FindLiveObjects: 0.089084 ms CreateObjectMapping: 0.030750 ms MarkObjects: 2.393625 ms  DeleteObjects: 1.293500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2857.730885 seconds.
+  path: Assets/StylizedTown/Materials/Advertisment_large.mat
+  artifactKey: Guid(323df08f09682f240851e50ed15a7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Advertisment_large.mat using Guid(323df08f09682f240851e50ed15a7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3e56a0b38822728571f5fb2105200d') in 0.538361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Materials/Sky.mat
+  artifactKey: Guid(63990adb8e0d0ff468b72b0e8951237e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Sky.mat using Guid(63990adb8e0d0ff468b72b0e8951237e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea89179e30dea3ac8c3f3df48899a60c') in 0.068049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StylizedTown/Materials/BricksSmallRed_WS_Stripes_01.mat
+  artifactKey: Guid(499930c7fddac6647b3117bf871989de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksSmallRed_WS_Stripes_01.mat using Guid(499930c7fddac6647b3117bf871989de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e5ab4ac8d99e99fcdd8fb86c2fd43c') in 0.396123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StylizedTown/Models/Chimney_05.fbx
+  artifactKey: Guid(064b21a9705d05f4facd0782b22384be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Chimney_05.fbx using Guid(064b21a9705d05f4facd0782b22384be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b419deb6e437da48f835ae155e29c2') in 0.342766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StylizedTown/Models/Column_03_Cap.fbx
+  artifactKey: Guid(4cdbdee1fe77a9240b691783a6c63ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Column_03_Cap.fbx using Guid(4cdbdee1fe77a9240b691783a6c63ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948367f33353a8a54e31cd7707308418') in 0.018331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Models/Bollard.fbx
+  artifactKey: Guid(0fa105c271bfd844b930b07c6c2f8800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Bollard.fbx using Guid(0fa105c271bfd844b930b07c6c2f8800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11241db91d13a574ff6a68171a3afd8c') in 0.012303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedTown/Models/Gutter_04.fbx
+  artifactKey: Guid(3c0d604b03994a1489b4e094e99a5bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Gutter_04.fbx using Guid(3c0d604b03994a1489b4e094e99a5bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf8fda4d55a184fb2d55412c9578a0b') in 0.011410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Materials/BricksSmallYellow_WS.mat
+  artifactKey: Guid(b956ca74c6b4b474f9f6ead33b613975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksSmallYellow_WS.mat using Guid(b956ca74c6b4b474f9f6ead33b613975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7bbe09b8950b6d6ea90cfd83e0e091') in 0.320678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Materials/BricksLargeGrey_Overlay_WS.mat
+  artifactKey: Guid(7cd5ffff5884e25458edc2f4cc5511fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksLargeGrey_Overlay_WS.mat using Guid(7cd5ffff5884e25458edc2f4cc5511fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad125af07cc80261e90971a303edd3d') in 0.397838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StylizedTown/Materials/RoofTiles_02.mat
+  artifactKey: Guid(4f06a78e50b460743ab0d236e62cf11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/RoofTiles_02.mat using Guid(4f06a78e50b460743ab0d236e62cf11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277497a05e1d2c5abf9bc4cb06fb1e9e') in 0.214719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StylizedTown/Materials/Glass_Transparent.mat
+  artifactKey: Guid(e87ee7430aa6b0d409a1a09c8344663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Glass_Transparent.mat using Guid(e87ee7430aa6b0d409a1a09c8344663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a40f126195489078027b45b51771d3d') in 0.302085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StylizedTown/Models/Building_10_Pharmacy.fbx
+  artifactKey: Guid(531cf80a88c102545a55001d937bddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_10_Pharmacy.fbx using Guid(531cf80a88c102545a55001d937bddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc56f2dafb444a2c205aa37a26b14af2') in 0.295961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Models/Curb_01.fbx
+  artifactKey: Guid(bcf20eb94464c0241bc33f60f572acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Curb_01.fbx using Guid(bcf20eb94464c0241bc33f60f572acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea40be3763f708acfe893dcc1f35ef1') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StylizedTown/Materials/BricksSmallYellow_WS_Stripes_01.mat
+  artifactKey: Guid(b77073cae85fbab4295ea48206661533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksSmallYellow_WS_Stripes_01.mat using Guid(b77073cae85fbab4295ea48206661533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc453113c4e00742704f991a5a36916f') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/StylizedTown/Materials/BricksSmallYellow_UV.mat
+  artifactKey: Guid(d229f57e1c1e73f438431d11d7c7ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksSmallYellow_UV.mat using Guid(d229f57e1c1e73f438431d11d7c7ec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16de820f3b0a1ba2826f8f951359a50d') in 0.235824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StylizedTown/Models/Chimney_01.fbx
+  artifactKey: Guid(fa67b47c992dec844bdf4506cc4ae853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Chimney_01.fbx using Guid(fa67b47c992dec844bdf4506cc4ae853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0901ed57f1b0b961a18bc3d8069d5c') in 0.011014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StylizedTown/Models/Decal_Ad_01.fbx
+  artifactKey: Guid(409d50a135b28f247af5b554781a40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Decal_Ad_01.fbx using Guid(409d50a135b28f247af5b554781a40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddbcddfd573911904bb44a5164c5bbf') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StylizedTown/Models/Gutter_03.fbx
+  artifactKey: Guid(d8bcf84380d9631478a20486532cf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Gutter_03.fbx using Guid(d8bcf84380d9631478a20486532cf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7a25374338544ebcc748f9e7eda0a5') in 0.012228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedTown/Models/Building_13.fbx
+  artifactKey: Guid(93272843e722a7444b9a801ee73c7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_13.fbx using Guid(93272843e722a7444b9a801ee73c7775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af37ef7b45eddc61a46002975ac7266d') in 0.143063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StylizedTown/Models/Mailbox_02.fbx
+  artifactKey: Guid(97fb550aa7347b34daaa7a2770e40b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Mailbox_02.fbx using Guid(97fb550aa7347b34daaa7a2770e40b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5ee2008d1c8aaa582f9a7f2f5909b4') in 0.012675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StylizedTown/Materials/Trims_yellow.mat
+  artifactKey: Guid(b429e60b9294e2543969ace9e29e3afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Trims_yellow.mat using Guid(b429e60b9294e2543969ace9e29e3afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1ecb46acbf006adca8c0bfa339fafa') in 0.008706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/StylizedTown/Models/Plane_01_Angel.fbx
+  artifactKey: Guid(b03dba2a8ddc9b1419704b9ba56e4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Plane_01_Angel.fbx using Guid(b03dba2a8ddc9b1419704b9ba56e4890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd871da43d46603de938a32c86777398') in 0.012716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StylizedTown/Materials/Glass_Emission_StreetLights.mat
+  artifactKey: Guid(2d6e01d24da111443a66e0128d914c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Glass_Emission_StreetLights.mat using Guid(2d6e01d24da111443a66e0128d914c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7999bfb83bbd58886af44445dbcda57') in 0.055662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StylizedTown/Materials/Glass.mat
+  artifactKey: Guid(fbef9312c8625044d9a671421a4ad005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Glass.mat using Guid(fbef9312c8625044d9a671421a4ad005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28afff90be60a911add6dfb6de6e8b40') in 0.011518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StylizedTown/Models/Building_08.fbx
+  artifactKey: Guid(eb48bc5fc49b4494bab8c93063a80e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_08.fbx using Guid(eb48bc5fc49b4494bab8c93063a80e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3822b9f02171d33cb73aeeeb885c895e') in 0.113242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/StylizedTown/Models/Column_01_Cap_03.fbx
+  artifactKey: Guid(335346bad6e25cf469436b972eebe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Column_01_Cap_03.fbx using Guid(335346bad6e25cf469436b972eebe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe169e565ba56f60ed94ef84690354') in 0.016363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/StylizedTown/Models/Curb_Bend_10x20.fbx
+  artifactKey: Guid(f67f15910084ffc409c22aba03ce60cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Curb_Bend_10x20.fbx using Guid(f67f15910084ffc409c22aba03ce60cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3f859c042b7f34cd2f98420ef6e916') in 0.020052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedTown/Models/Plane_01.fbx
+  artifactKey: Guid(a769151d340ae1248ba25f3c6f0e00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Plane_01.fbx using Guid(a769151d340ae1248ba25f3c6f0e00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09289e938c656737ad57e4ab89ce9499') in 0.014445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StylizedTown/Models/Chimney_02.fbx
+  artifactKey: Guid(c577096d214627e4ba9516745c49541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Chimney_02.fbx using Guid(c577096d214627e4ba9516745c49541a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14007766bfe8e6b23191027fb6e9d405') in 0.013987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedTown/Models/Roof_01.fbx
+  artifactKey: Guid(5dbac77ab9327a6408403c81af50291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Roof_01.fbx using Guid(5dbac77ab9327a6408403c81af50291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df58725e073f70bc4edad648837709fc') in 0.050410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/StylizedTown/Models/Column_02_Cap.fbx
+  artifactKey: Guid(66f55ad06b90f7342a397a26422eba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Column_02_Cap.fbx using Guid(66f55ad06b90f7342a397a26422eba8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9391c495caaceff659efdf939fc6daf6') in 0.017574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StylizedTown/Models/Gutter_01.fbx
+  artifactKey: Guid(aec2beabc9cad5f41add110719dee7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Gutter_01.fbx using Guid(aec2beabc9cad5f41add110719dee7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3743ddc0838810fd425ce133df429739') in 0.011757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Models/Column_02.fbx
+  artifactKey: Guid(b42e7234e6bd893428d2047066143a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Column_02.fbx using Guid(b42e7234e6bd893428d2047066143a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fa8a86c7c4d8d9384e0b1d7deab020') in 0.015699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/StylizedTown/Models/Building_01.fbx
+  artifactKey: Guid(410d31382e01ec24ab1a4d5d759cdef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_01.fbx using Guid(410d31382e01ec24ab1a4d5d759cdef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafc7b738c6d5368b492c4ffc3abd9b9') in 0.119505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Materials/Props.mat
+  artifactKey: Guid(e6411e5990ca90946a33d31012303ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Props.mat using Guid(e6411e5990ca90946a33d31012303ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dd63fa550025adf6933f3a5d5c5cdd') in 0.029984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StylizedTown/Models/Door_02.fbx
+  artifactKey: Guid(0af689ca5cfc4904a93cf9eb1d4dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Door_02.fbx using Guid(0af689ca5cfc4904a93cf9eb1d4dc73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aaf0d9689345ec32cf507979c7d2ef') in 0.033796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StylizedTown/Models/Building_02_Passage.fbx
+  artifactKey: Guid(4f2ee9da30208e64291b791b809293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_02_Passage.fbx using Guid(4f2ee9da30208e64291b791b809293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928d9595e4c142a603ee6978d397b0ab') in 0.038429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/StylizedTown/Materials/PhoneBooth.mat
+  artifactKey: Guid(124075ff498e2ee4dabaf0ec9b6f552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/PhoneBooth.mat using Guid(124075ff498e2ee4dabaf0ec9b6f552b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a83eb8f6798d8271df59b951505dc26') in 0.297643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StylizedTown/Models/Building_11.fbx
+  artifactKey: Guid(43299bc0698436b43b0c031c1d3a39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_11.fbx using Guid(43299bc0698436b43b0c031c1d3a39e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005f698ed4eb8cf2a3e01cabbd4dfe3d') in 0.126347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Models/Mailbox_01.fbx
+  artifactKey: Guid(67aed145e76ceb0498f0fc999f05fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Mailbox_01.fbx using Guid(67aed145e76ceb0498f0fc999f05fe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195528a54c3da2706a5b953a55792eee') in 0.016595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/StylizedTown/Models/Column_01_Cap_01.fbx
+  artifactKey: Guid(312773fac86c7714eafbf2bb0578bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Column_01_Cap_01.fbx using Guid(312773fac86c7714eafbf2bb0578bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca9808060d11f6de92f71712839f8af') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StylizedTown/Models/Curb_02.fbx
+  artifactKey: Guid(71f9b513105a32e429f06b9889d6eeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Curb_02.fbx using Guid(71f9b513105a32e429f06b9889d6eeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02582dc2b25848d984f902576b914eb') in 0.015546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Models/Label_Trim_02.fbx
+  artifactKey: Guid(dbe12f8eef8b0ea49ab1feb2893b1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Label_Trim_02.fbx using Guid(dbe12f8eef8b0ea49ab1feb2893b1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f683a5e2200a16a8adcd3fe930871f') in 0.012719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StylizedTown/Models/Building_09.fbx
+  artifactKey: Guid(ec27420d1b4ba1b4bb14b2eced64edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Building_09.fbx using Guid(ec27420d1b4ba1b4bb14b2eced64edf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b006c930c35f9c84892a22ca6e6a14') in 0.104094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/StylizedTown/Materials/Cobblestone.mat
+  artifactKey: Guid(c27cc5388d94d7047bb5c111f7789ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Cobblestone.mat using Guid(c27cc5388d94d7047bb5c111f7789ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507db593c339e120fe34bf7c8e99f777') in 0.347336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StylizedTown/Materials/BricksSmallRed_WS.mat
+  artifactKey: Guid(cec9070dc4dae7c4383ed4abe4ecb551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/BricksSmallRed_WS.mat using Guid(cec9070dc4dae7c4383ed4abe4ecb551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32c1b7eb69e29698f67ad1a8675af51') in 0.012678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StylizedTown/Models/Curb_2m.fbx
+  artifactKey: Guid(40389b2842e895240b330983f741c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Curb_2m.fbx using Guid(40389b2842e895240b330983f741c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d29219ab5b876422d33ee56b2e2695f') in 0.014463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/StylizedTown/Models/Door_03.fbx
+  artifactKey: Guid(b3dc98e882571da48836f203fc54ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Door_03.fbx using Guid(b3dc98e882571da48836f203fc54ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eed80ee77d0965d970f6ba571b21b2') in 0.036097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StylizedTown/Models/Gutter_02.fbx
+  artifactKey: Guid(b6e3fd589b7dd6f47bc6db38aaffc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Gutter_02.fbx using Guid(b6e3fd589b7dd6f47bc6db38aaffc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59efa543d4477014f81f3d8fb82f86') in 0.015758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Materials/Decal_Dirt.mat
+  artifactKey: Guid(609f692f458b41545a1a84363c693ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Materials/Decal_Dirt.mat using Guid(609f692f458b41545a1a84363c693ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9c1b00fcbb036f01173b64bf777642') in 0.009831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Models/Curb_6m.fbx
+  artifactKey: Guid(aeb9146c1cd9fc14fa2311206eb7dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Curb_6m.fbx using Guid(aeb9146c1cd9fc14fa2311206eb7dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56869237b61c3d4b253c2e0eb0b7cd12') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StylizedTown/Models/Door_01.fbx
+  artifactKey: Guid(7ed3336ac83b4cc4c8c09ece916d0210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Models/Door_01.fbx using Guid(7ed3336ac83b4cc4c8c09ece916d0210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fe307f2554f73e284fc581a41fda9f') in 0.024287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.351635 seconds.
+  path: Assets/StylizedTown/Presets/AudioStreaming.preset
+  artifactKey: Guid(460e573eb8466884baaa0b8475505f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Presets/AudioStreaming.preset using Guid(460e573eb8466884baaa0b8475505f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167b04fd365f307554a3082abbdc6097') in 0.039562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StylizedTown/Presets/UtilityTexture.preset
+  artifactKey: Guid(9303d565bd8aa6948ba775e843320e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Presets/UtilityTexture.preset using Guid(9303d565bd8aa6948ba775e843320e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5e6e63d9749fbeb748a2cfd4663f81') in 0.003277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.324536 seconds.
+  path: Assets/StylizedTown/Textures/Advertisement_Large_basecolor.png
+  artifactKey: Guid(0ba34da9e3e72994ab5b20630a61d417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Advertisement_Large_basecolor.png using Guid(0ba34da9e3e72994ab5b20630a61d417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b23def33cbd86e67e2561feb37382e') in 0.012001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StylizedTown/Textures/Windows_occlusion.png
+  artifactKey: Guid(426d5f8762c00a348bda5c3712603a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Windows_occlusion.png using Guid(426d5f8762c00a348bda5c3712603a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d5503fa717f689f6d9701344d7d1cd') in 0.008113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/StylizedTown/Textures/PhoneBooth_ambientocclusion.png
+  artifactKey: Guid(81c4ac35dd881144f85e313206bb7ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/PhoneBooth_ambientocclusion.png using Guid(81c4ac35dd881144f85e313206bb7ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd7b14e5e38ebe17997973e37bdd40') in 0.005415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/StylizedTown/Textures/Bricks_01_normal.png
+  artifactKey: Guid(6b95f7fa5a6aaa144b1def6e9788527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Bricks_01_normal.png using Guid(6b95f7fa5a6aaa144b1def6e9788527d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9984f3dc34734d464e2b6223bab225') in 0.039633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StylizedTown/Textures/Props_normal.png
+  artifactKey: Guid(cdffb8e6c409c7d4a8f25df254b2b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Props_normal.png using Guid(cdffb8e6c409c7d4a8f25df254b2b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a109e1cc69f3930cbf70fbbb79e1a9') in 0.013387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StylizedTown/Textures/Bricks_02_basecolor_1.png
+  artifactKey: Guid(6c6159e1f5f751a4a9b9bc4804a6bd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Bricks_02_basecolor_1.png using Guid(6c6159e1f5f751a4a9b9bc4804a6bd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0ed0d0f28ef9be2c60ca04641020c0') in 0.006532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedTown/Textures/Stripes_basecolor.png
+  artifactKey: Guid(f582f8c2ce3db4140882b64a52af4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Stripes_basecolor.png using Guid(f582f8c2ce3db4140882b64a52af4b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad3dd4ce588bdf4c90e59af8f0912cb') in 0.005523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedTown/Textures/Bricks_02_normal.png
+  artifactKey: Guid(865e07d92afb9a0488fc52a7cddb2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Bricks_02_normal.png using Guid(865e07d92afb9a0488fc52a7cddb2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb390305b30584748a5b4210d74bdca5') in 0.006413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StylizedTown/Textures/StoreFront_metallic.png
+  artifactKey: Guid(367cddd3fd4e6994f9dd6c2664f9f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/StoreFront_metallic.png using Guid(367cddd3fd4e6994f9dd6c2664f9f531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9132dd2b7a631fb20a91ecfdb94beaf') in 0.004865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StylizedTown/Textures/StoreFront_ambientocclusion.png
+  artifactKey: Guid(f6f5e7708cb484f47a43eca551fc15ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/StoreFront_ambientocclusion.png using Guid(f6f5e7708cb484f47a43eca551fc15ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c9a1e000e4c72395f015ae08fa89b7') in 0.005703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/StylizedTown/Textures/Puddles_normal.png
+  artifactKey: Guid(25d9df3e4bd09c743845e0c057758cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Puddles_normal.png using Guid(25d9df3e4bd09c743845e0c057758cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53005e73da8579362c3852b7cbf5e75') in 0.006609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/StylizedTown/Textures/StoreFront_basecolor.png
+  artifactKey: Guid(9e1128d745c8a1f4a94477878153c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/StoreFront_basecolor.png using Guid(9e1128d745c8a1f4a94477878153c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6e483c61fb49d3bbf8fafcc1b395f3') in 0.013531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/StylizedTown/Textures/Decal_Dirt_basecolor.png
+  artifactKey: Guid(cb4846c8c96a3014b8c2355a967dff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Decal_Dirt_basecolor.png using Guid(cb4846c8c96a3014b8c2355a967dff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4168636f74b8fb7b4c0e131bef5d9abe') in 0.006128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StylizedTown/Textures/Bricks_01_basecolor.png
+  artifactKey: Guid(087de62606dd0274a9da9743638482ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Bricks_01_basecolor.png using Guid(087de62606dd0274a9da9743638482ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caadb19d7fba155a1f22b146c3e3806') in 0.006794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StylizedTown/Textures/Glass_emission.png
+  artifactKey: Guid(af172bd633c3b7b48bdc224f95e5ab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Glass_emission.png using Guid(af172bd633c3b7b48bdc224f95e5ab48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c490aa7ce37a408d4e7c181da0d304d3') in 0.005093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StylizedTown/Textures/Glass_basecolor.png
+  artifactKey: Guid(93efccfb264ab5a4bb5142c41917bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Glass_basecolor.png using Guid(93efccfb264ab5a4bb5142c41917bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a697d6307f1799770562f667a83fef') in 0.005935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StylizedTown/Textures/FloorTiles_normal.png
+  artifactKey: Guid(67513dd66fdacdd4598bb319aa733bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/FloorTiles_normal.png using Guid(67513dd66fdacdd4598bb319aa733bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6145a65b5cbbae350ce2f65862d6c19') in 0.006978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StylizedTown/Textures/Glass_normal.png
+  artifactKey: Guid(821ab586cecee9d4f94231e8728d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Glass_normal.png using Guid(821ab586cecee9d4f94231e8728d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a28aa37455c1a7e6586b119df0fa1a') in 0.006038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StylizedTown/Textures/Props_ambientocclusion.png
+  artifactKey: Guid(92f162331446a3340aaf453da16feeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Props_ambientocclusion.png using Guid(92f162331446a3340aaf453da16feeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf64373a69767b9f4dfbfe379d10cb1') in 0.005350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StylizedTown/Textures/Cobblestone_Mask.png
+  artifactKey: Guid(027e291a204e77c42b103de11f65de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Cobblestone_Mask.png using Guid(027e291a204e77c42b103de11f65de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d292ecb23beb569f47e208c4efb2296') in 0.006436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StylizedTown/Textures/Windows_metallic.png
+  artifactKey: Guid(4de0d4be9bfa7c4469dc945d92e54f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Windows_metallic.png using Guid(4de0d4be9bfa7c4469dc945d92e54f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62148937b5ce1fabc71b4a76e2e21a92') in 0.005553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/StylizedTown/Textures/PhoneBooth_normal.png
+  artifactKey: Guid(463fefe53b160374e893e3c0228c30e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/PhoneBooth_normal.png using Guid(463fefe53b160374e893e3c0228c30e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce271be2e72e694c8f43b839225ba1cd') in 0.013142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StylizedTown/Textures/Glass_HDRP_Mask.png
+  artifactKey: Guid(e7ab0d85e25b1f740b4da5cd55586fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Glass_HDRP_Mask.png using Guid(e7ab0d85e25b1f740b4da5cd55586fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7f19ea89aefc25ca9de35fb9958a06') in 0.006014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StylizedTown/Textures/Windows_basecolor.png
+  artifactKey: Guid(738b56c9569788143a52fcc33a04d17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Windows_basecolor.png using Guid(738b56c9569788143a52fcc33a04d17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fa3c9f55f0f1433e550518d6df2a74') in 0.012994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedTown/Textures/Normal_Flat.png
+  artifactKey: Guid(bb851e800aa58be45a1ce9571d9c4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Normal_Flat.png using Guid(bb851e800aa58be45a1ce9571d9c4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529fbc3253cfaf5102f5aa156b7645c6') in 0.004065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/StylizedTown/Textures/Props_basecolor.png
+  artifactKey: Guid(b27632d6d6ddc214fab2171aefe74513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Props_basecolor.png using Guid(b27632d6d6ddc214fab2171aefe74513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9bb497d8c0818b96a4e7e17eb5f30a') in 0.013501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StylizedTown/Textures/Trims_basecolor.png
+  artifactKey: Guid(caa340497227d9641b5f919045c707c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Trims_basecolor.png using Guid(caa340497227d9641b5f919045c707c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196d5b90eebe5e0768408bce521ab384') in 0.006292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StylizedTown/Textures/FloorTiles_basecolor.png
+  artifactKey: Guid(4d93b83853d0c0b4cac85cb1a17fddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/FloorTiles_basecolor.png using Guid(4d93b83853d0c0b4cac85cb1a17fddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e4907b2ae55c207995ff49590aebc5') in 0.005829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/StylizedTown/Textures/Trims_overlay.png
+  artifactKey: Guid(b9d03ba6f1bb3c7489149afca0449e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedTown/Textures/Trims_overlay.png using Guid(b9d03ba6f1bb3c7489149afca0449e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967c99618afec800ee3a01ae68e56ebb') in 0.005149 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000964 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (572ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (4.7 MB). Loaded Objects now: 2715.
+Memory consumption went from 225.2 MB to 220.6 MB.
+Total: 3.301042 ms (FindLiveObjects: 0.100584 ms CreateObjectMapping: 0.033666 ms MarkObjects: 2.347292 ms  DeleteObjects: 0.818875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000952 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (4.7 MB). Loaded Objects now: 2731.
+Memory consumption went from 225.7 MB to 221.0 MB.
+Total: 3.391167 ms (FindLiveObjects: 0.092958 ms CreateObjectMapping: 0.030583 ms MarkObjects: 2.411500 ms  DeleteObjects: 0.855375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000956 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (34ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (4.7 MB). Loaded Objects now: 2738.
+Memory consumption went from 226.1 MB to 221.5 MB.
+Total: 3.184250 ms (FindLiveObjects: 0.101542 ms CreateObjectMapping: 0.030625 ms MarkObjects: 2.232500 ms  DeleteObjects: 0.819084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 163.113487 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArchWall_A.prefab
+  artifactKey: Guid(c8f9f292552c4644997526eef6419547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArchWall_A.prefab using Guid(c8f9f292552c4644997526eef6419547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b3b0e4bbe41417371baa2f665432f8') in 0.069908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideLamp.prefab
+  artifactKey: Guid(791c281ae4cf67a4cb133893ebf56e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideLamp.prefab using Guid(791c281ae4cf67a4cb133893ebf56e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804ae3f392e709cfd2bbba94a651c284') in 0.007215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Door_R.prefab
+  artifactKey: Guid(cacd1a8a9cc37e247906df510a2f8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Door_R.prefab using Guid(cacd1a8a9cc37e247906df510a2f8177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458a540958e1edf976542a36a0cc2b4f') in 0.007711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Ceiling_B.prefab
+  artifactKey: Guid(2e1dacc14e1583441b54759cdd82dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Ceiling_B.prefab using Guid(2e1dacc14e1583441b54759cdd82dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7344304f1b4619f8ea5c38297a6d72') in 0.005870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideArcwall_A.prefab
+  artifactKey: Guid(4c39598bb1d3b0f4b84b74dd73ebafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideArcwall_A.prefab using Guid(4c39598bb1d3b0f4b84b74dd73ebafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352555e42dbab164e94e7d25141060e7') in 0.007056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_A_03.prefab
+  artifactKey: Guid(6a86c486d4306824295bcb91fe2be37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_A_03.prefab using Guid(6a86c486d4306824295bcb91fe2be37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1bb32a40ad91f77fa352f5c2363c9b') in 0.006732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorStair_A.prefab
+  artifactKey: Guid(1607d42c75368514fa5bc0aa913600c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorStair_A.prefab using Guid(1607d42c75368514fa5bc0aa913600c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03c9f97c85ee12532899de1be616fc2') in 0.005343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_H_01.prefab
+  artifactKey: Guid(31f2fb81fa60b2a48bef7ce4fae8d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_H_01.prefab using Guid(31f2fb81fa60b2a48bef7ce4fae8d253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115c91793f39b21918357bb92bd7b603') in 0.007127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_C.prefab
+  artifactKey: Guid(d2ae930f10ea3294e94ff523bcc48f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_C.prefab using Guid(d2ae930f10ea3294e94ff523bcc48f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87de5b863ed634ba6252c425b1c6573') in 0.006589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArcPillar_A.prefab
+  artifactKey: Guid(c17d6dcbe59708749ae1153b984a27f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArcPillar_A.prefab using Guid(c17d6dcbe59708749ae1153b984a27f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14868ccfb931ecde8e08aa5421b22174') in 0.008583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Gound_A.prefab
+  artifactKey: Guid(612538fd09e99c0428a835c02d9aac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Gound_A.prefab using Guid(612538fd09e99c0428a835c02d9aac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2cb3784562119ff6c6a78211b7d2ef') in 0.004860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_C_02.prefab
+  artifactKey: Guid(5d8047c0653913d43b97964549ff00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_C_02.prefab using Guid(5d8047c0653913d43b97964549ff00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22301780c35be1d0f25d12c6ccc730c') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_D_02.prefab
+  artifactKey: Guid(626aa787b8ad8fe468bd692569fa71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_D_02.prefab using Guid(626aa787b8ad8fe468bd692569fa71fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fe76b4d5627dbbc544f3044dbacb0c') in 0.006226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_C.prefab
+  artifactKey: Guid(4fdd938f6e783ba4bada7fbd2699e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_C.prefab using Guid(4fdd938f6e783ba4bada7fbd2699e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a6267a15d74cb297f117c1cae473ba') in 0.006342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Inside2FGround.prefab
+  artifactKey: Guid(f9ed0ec62670c8a4fac60501e2273ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Inside2FGround.prefab using Guid(f9ed0ec62670c8a4fac60501e2273ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c96c3a28dcc00e662a2f06c0db0686d') in 0.005232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Chair_A.prefab
+  artifactKey: Guid(baf6e04bcd4f18d429cc8bda76ceb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Chair_A.prefab using Guid(baf6e04bcd4f18d429cc8bda76ceb60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06308f0218b46bb81cb3c6266d7469c9') in 0.008408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_G_01.prefab
+  artifactKey: Guid(7baefc7c46e2f0f43b77c86ac6f5db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_G_01.prefab using Guid(7baefc7c46e2f0f43b77c86ac6f5db72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab5fd97ab9de2b96c380b386290cfaa') in 0.006723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_A_03.prefab
+  artifactKey: Guid(ccb5f516dc0642343bbfe2de8229235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_A_03.prefab using Guid(ccb5f516dc0642343bbfe2de8229235a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02db9c2d4df7465838915aff460140b3') in 0.007377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Flower_A.prefab
+  artifactKey: Guid(8eed325cb3b638f4d9fe5908dc19ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Flower_A.prefab using Guid(8eed325cb3b638f4d9fe5908dc19ad45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98013c0371e793f1e86a3dc893db92b2') in 0.008400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArcWall_B.prefab
+  artifactKey: Guid(b50d4ae107e9c1e44ad53e4bbc3c4bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_ArcWall_B.prefab using Guid(b50d4ae107e9c1e44ad53e4bbc3c4bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd189d3d29a08711b3dbba6f164edd9a') in 0.011589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideceilingDeco_A.prefab
+  artifactKey: Guid(17ee408ea555ad5418f958458c5e7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideceilingDeco_A.prefab using Guid(17ee408ea555ad5418f958458c5e7897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df83d606b2871bb34eecf4f164d4d99') in 0.007183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideDesk_A.prefab
+  artifactKey: Guid(bba47b3d06b73bb4a932be64806e1520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideDesk_A.prefab using Guid(bba47b3d06b73bb4a932be64806e1520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f936819138f48f0f3114006f74ff1fe') in 0.005457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Carpet2F.prefab
+  artifactKey: Guid(81a9ac4d178ad3341989f900b1431e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Carpet2F.prefab using Guid(81a9ac4d178ad3341989f900b1431e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b711a186a38d2e2c818c18766fffef') in 0.004962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_A_02.prefab
+  artifactKey: Guid(6a043a47ca1447c4b984ae90b9f593a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_IndiseArcWindow_A_02.prefab using Guid(6a043a47ca1447c4b984ae90b9f593a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5c2fbd20aff4585b11d614c9cb9303') in 0.008660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideCandlestick_A.prefab
+  artifactKey: Guid(b80a2441f3232d6428f35af054a01793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideCandlestick_A.prefab using Guid(b80a2441f3232d6428f35af054a01793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965fbd75f7e0cddec326a8233f59530a') in 0.006107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Insideceiling_A 1.prefab
+  artifactKey: Guid(046cd7356ec3cb8478854b7e161324f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Insideceiling_A 1.prefab using Guid(046cd7356ec3cb8478854b7e161324f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba788f2eef8a21167ae95abc6231608') in 0.005965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_B.prefab
+  artifactKey: Guid(6843b0b74e0400b4495c5ae295fdcd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_B.prefab using Guid(6843b0b74e0400b4495c5ae295fdcd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7032fc00be25e454b4d94e2acfc859') in 0.005916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Door_Frame.prefab
+  artifactKey: Guid(c3f193888c9f67747846bd6e35902146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Door_Frame.prefab using Guid(c3f193888c9f67747846bd6e35902146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b342cd67dfff8ad7ccf45c21d4346ea') in 0.008043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_E_01.prefab
+  artifactKey: Guid(9f76788b48d90144199146ba860b2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_E_01.prefab using Guid(9f76788b48d90144199146ba860b2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67172e85acfa2fc1865da69710f4efa1') in 0.006343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideFrameDecol_A.prefab
+  artifactKey: Guid(9139259f6ccdd2049a406294d8080c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_InsideFrameDecol_A.prefab using Guid(9139259f6ccdd2049a406294d8080c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e9d358b25a0b3b55ee224cfc70109f') in 0.006524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_A.prefab
+  artifactKey: Guid(bf59d69658f5e0745b7c1c0639ec597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_DoorWall_A.prefab using Guid(bf59d69658f5e0745b7c1c0639ec597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb82a183c18138174b0536d2c52c8dc1') in 0.005503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_A_01.prefab
+  artifactKey: Guid(96efdb36a0a2c8b4898ef48bd305571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Frame_A_01.prefab using Guid(96efdb36a0a2c8b4898ef48bd305571d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c7777f652e2e5b359b76109e0f83d') in 0.004705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Building_A.prefab
+  artifactKey: Guid(da31cbc6c0c2ab743b139214a080333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Prefabs/BC_Building_A.prefab using Guid(da31cbc6c0c2ab743b139214a080333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651d120733309d94d34738afc356f7f4') in 0.034176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.207006 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_206712.asset
+  artifactKey: Guid(a44c0d56f1736464abb0a5e1a89ad854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_206712.asset using Guid(a44c0d56f1736464abb0a5e1a89ad854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaec2243744b53c2810a0f13496d75d') in 0.054585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318834.asset
+  artifactKey: Guid(a4aa9b9692e5de046832bf557786d6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318834.asset using Guid(a4aa9b9692e5de046832bf557786d6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153439822f255b3b847020ee65a89c45') in 0.004463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318896.asset
+  artifactKey: Guid(1aa0e2b41d4ff0d45be93b4a625a88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318896.asset using Guid(1aa0e2b41d4ff0d45be93b4a625a88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a9a6dedf221163284b79bc91ff12ab') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261296.asset
+  artifactKey: Guid(e9945862ed0feed4fadab93f2e9cf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261296.asset using Guid(e9945862ed0feed4fadab93f2e9cf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9a447d9b87077d8306db7a2e22bba6') in 0.009936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261142.asset
+  artifactKey: Guid(4ab96228b29e35242b12563837340711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261142.asset using Guid(4ab96228b29e35242b12563837340711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1b48658e43ab8fa421a22ef78bf79') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261348.asset
+  artifactKey: Guid(9ea4f1f3c0943fd44bbd34a4ac9640fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261348.asset using Guid(9ea4f1f3c0943fd44bbd34a4ac9640fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f63076a838838229f6259467efc0aa') in 0.005094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318846.asset
+  artifactKey: Guid(32cbc2c855928394789bb8e5b52f322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318846.asset using Guid(32cbc2c855928394789bb8e5b52f322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef2b699804704210416a5941bd51093') in 0.007462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261186.asset
+  artifactKey: Guid(8db7e622925b80740a9462d0b3132e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261186.asset using Guid(8db7e622925b80740a9462d0b3132e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee185b32c7786ea86a3106e6f4e0ab2') in 0.012444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261336.asset
+  artifactKey: Guid(84446ced3b2955847819fd1986b89058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261336.asset using Guid(84446ced3b2955847819fd1986b89058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72dbd04606efd85260d47cb57bce200') in 0.007737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261470.asset
+  artifactKey: Guid(5a2df06422f48f441ac3bc489ccd7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261470.asset using Guid(5a2df06422f48f441ac3bc489ccd7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7ec214ac5a30ec28a04202be597b15') in 0.006373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_206724.asset
+  artifactKey: Guid(5403e5f48fbda084597198030bdb79dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_206724.asset using Guid(5403e5f48fbda084597198030bdb79dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbd93f70f1d60550b237566a6c25970') in 0.008780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261484.asset
+  artifactKey: Guid(fcd703b03227daf46a75f23bba058ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261484.asset using Guid(fcd703b03227daf46a75f23bba058ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e9ecb58254e4e05a755b622e36dbd') in 0.004501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261234.asset
+  artifactKey: Guid(7a1b164152a96a141b4f34d8468c650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261234.asset using Guid(7a1b164152a96a141b4f34d8468c650f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2b96f17be1d1529f26219021480d4') in 0.005836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319004.asset
+  artifactKey: Guid(6e4351e8c9b7ab1489babe16fb018d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319004.asset using Guid(6e4351e8c9b7ab1489babe16fb018d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a0adbe85c03d0f6943fdc1154f2034') in 0.004650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318908.asset
+  artifactKey: Guid(381a77a9a25a5be4f897814d94c6ad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318908.asset using Guid(381a77a9a25a5be4f897814d94c6ad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b67ceabf8535204a822330d7b66b3e') in 0.005849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261282.asset
+  artifactKey: Guid(816402cb1efbb9b4d97cdcb80c260fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261282.asset using Guid(816402cb1efbb9b4d97cdcb80c260fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e9fbc062ad91f1fd55b36ba64c49a') in 0.004783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318932.asset
+  artifactKey: Guid(922a892e9a30ea94bbfe088fe6a6dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318932.asset using Guid(922a892e9a30ea94bbfe088fe6a6dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b93158996358603838d64f564aa010') in 0.006061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261210.asset
+  artifactKey: Guid(5db306366b91b3844b3caf6148157b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261210.asset using Guid(5db306366b91b3844b3caf6148157b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346bf3367ef92bfd4816c2079912065e') in 0.004775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319040.asset
+  artifactKey: Guid(952133ecfeab8634c8a0955f5fb72b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319040.asset using Guid(952133ecfeab8634c8a0955f5fb72b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b2ffefc40b9a5e363693a875734845') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319066.asset
+  artifactKey: Guid(d1ec1ae59e1157549936bc8e1a7ea580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319066.asset using Guid(d1ec1ae59e1157549936bc8e1a7ea580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee626cc01490ea66516c6ff165fb98e') in 0.005689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319028.asset
+  artifactKey: Guid(d3ade71ff1347894bb4d92924074621f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1319028.asset using Guid(d3ade71ff1347894bb4d92924074621f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f42e9ee01586778f70bd553ab1b2f3') in 0.005857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261498.asset
+  artifactKey: Guid(72a2828f8da4b1c4ba214beb0e6fc217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261498.asset using Guid(72a2828f8da4b1c4ba214beb0e6fc217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc939309848fb66611846157cd1018') in 0.004554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261246.asset
+  artifactKey: Guid(8ccb09f560e55ee4d948f5b9d80e1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261246.asset using Guid(8ccb09f560e55ee4d948f5b9d80e1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b260793a66d71f75b76d41a9ceaca') in 0.006277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261374.asset
+  artifactKey: Guid(a01db3998b64c3b42a47010fabaf6424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261374.asset using Guid(a01db3998b64c3b42a47010fabaf6424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544f3f1dd85f7a5a77bc4ddab76611af') in 0.006839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318980.asset
+  artifactKey: Guid(40a4759506d372e4bbde19ed75f2e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318980.asset using Guid(40a4759506d372e4bbde19ed75f2e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1401b11060c67d208c23044b564dc437') in 0.004473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261258.asset
+  artifactKey: Guid(d142ab37f60901d489bd0d8183093ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261258.asset using Guid(d142ab37f60901d489bd0d8183093ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eae99e760f8794ab0be79db7c7cfdc4') in 0.004852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_257162.asset
+  artifactKey: Guid(cb73e7a2a7192c24ba7aa5cb3170930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_257162.asset using Guid(cb73e7a2a7192c24ba7aa5cb3170930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118c64b31cad961cfa1d2c4fe42537a1') in 0.005506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318870.asset
+  artifactKey: Guid(4c698a8b37ab1204897ce2c89da2d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318870.asset using Guid(4c698a8b37ab1204897ce2c89da2d418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64c51917234c18744d961338abd6977') in 0.004172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1320174.asset
+  artifactKey: Guid(8ba60e20f18b81346aff540d9f199e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1320174.asset using Guid(8ba60e20f18b81346aff540d9f199e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989518a8dd1cb727c8d3af512e68a07c') in 0.005595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318956.asset
+  artifactKey: Guid(8004be001981b774690cfd84ce7da62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318956.asset using Guid(8004be001981b774690cfd84ce7da62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da569004d48d2944408aa491a78a3838') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318992.asset
+  artifactKey: Guid(09bbd3be8435cad4bab8a779ab287574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1318992.asset using Guid(09bbd3be8435cad4bab8a779ab287574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9deb8c3ac736f7ead553da0cf343a8') in 0.004944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1320202.asset
+  artifactKey: Guid(803548e5e1c0266459fd365cd3588e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1320202.asset using Guid(803548e5e1c0266459fd365cd3588e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c740c46deb2f583afab7d1b9068fc9') in 0.006285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261156.asset
+  artifactKey: Guid(ba618cf03fda8b94a8b607e8da8a7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1261156.asset using Guid(ba618cf03fda8b94a8b607e8da8a7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8968e011ac14291325a8cb4454498d5') in 0.005762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1258186.asset
+  artifactKey: Guid(c8ff15cf4f92e3e43baa16feaff8f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/MeshAssets/um_1258186.asset using Guid(c8ff15cf4f92e3e43baa16feaff8f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db11c5b5998aa41e4af95b3c9f6d1058') in 0.006991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.277228 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcPillar_B.mat
+  artifactKey: Guid(b9ed6bfc6cd07d64e97435da50bac3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcPillar_B.mat using Guid(b9ed6bfc6cd07d64e97435da50bac3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280aed61cb763db6355da1c51f3a4131') in 0.026554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideStair_A_02.mat
+  artifactKey: Guid(4a8b7ef62f21b3b4ab6371b81e1137cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideStair_A_02.mat using Guid(4a8b7ef62f21b3b4ab6371b81e1137cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883e78ccc8b8a2cde731d5b12c49adc3') in 0.006878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideDesk_A.mat
+  artifactKey: Guid(6eeb106d3948f4b4386638bc2a1b7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideDesk_A.mat using Guid(6eeb106d3948f4b4386638bc2a1b7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e7c2db30d69d82ca7dd31cdbda42fd') in 0.005593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Leaf_B.mat
+  artifactKey: Guid(c85286e843e8e9c4e9856cba858d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Leaf_B.mat using Guid(c85286e843e8e9c4e9856cba858d4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9615924305cd961dbb34cb8177ae20') in 0.005059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideLampMetal.mat
+  artifactKey: Guid(d2e600ac839219a4092687904f755d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideLampMetal.mat using Guid(d2e600ac839219a4092687904f755d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191e20a6d7bbdb3f8ebf1c8f0f20b78c') in 0.007168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideWall_A_01.mat
+  artifactKey: Guid(4df20979d7dbf9843a4717f4f6f5ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideWall_A_01.mat using Guid(4df20979d7dbf9843a4717f4f6f5ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3012fe5295f75523bc432b6a8258cffc') in 0.006751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideFrame_A.mat
+  artifactKey: Guid(7105d944a397295428689623e8a5d8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideFrame_A.mat using Guid(7105d944a397295428689623e8a5d8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726bcb321a7a8f2fea39f56c02a1607c') in 0.006357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Leaf_A.mat
+  artifactKey: Guid(ecd6b1e569c7b3448bc7e5672f3cf467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Leaf_A.mat using Guid(ecd6b1e569c7b3448bc7e5672f3cf467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c3a44b2108c6f725d625108e50afa9') in 0.005592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCeiling_C 2.mat
+  artifactKey: Guid(8f108241b9d1faf48933b9590b6475ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCeiling_C 2.mat using Guid(8f108241b9d1faf48933b9590b6475ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d1f4cb14c17fee89705bbd869ecaef') in 0.004701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Carpet_04.mat
+  artifactKey: Guid(bd171c53380aacc4485ddb741c5eb013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Carpet_04.mat using Guid(bd171c53380aacc4485ddb741c5eb013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4f3757b8738cef0db16e7cb060d120') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideGlass_02 3.mat
+  artifactKey: Guid(af6e6a7d3a9a02246971dbd0b0ecfd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideGlass_02 3.mat using Guid(af6e6a7d3a9a02246971dbd0b0ecfd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e2259adb581106333f0480f7058c68') in 0.005793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_C.mat
+  artifactKey: Guid(1e217cfb0fbe4364d96e1639f7f5ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_C.mat using Guid(1e217cfb0fbe4364d96e1639f7f5ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce584cb71848ba1fd39b440e73956261') in 0.025272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideStair_C.mat
+  artifactKey: Guid(5285696251ddcc54fb006b516329bc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideStair_C.mat using Guid(5285696251ddcc54fb006b516329bc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f13f250adf8edf9c9a4eba328b2b9f3') in 0.004776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideWall_A_02.mat
+  artifactKey: Guid(9a851c9930b78d84daea885b961cbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideWall_A_02.mat using Guid(9a851c9930b78d84daea885b961cbc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0c700765dfeb34f55b400febe3df4f') in 0.004869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcPillar_C.mat
+  artifactKey: Guid(c56b99dcfd0e75145b2fd59cf49b6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcPillar_C.mat using Guid(c56b99dcfd0e75145b2fd59cf49b6d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f959d34ed788ea11978770e67b62a816') in 0.004953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Door.mat
+  artifactKey: Guid(fda2c4e2fb2230c4a89413ae2d5dd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Door.mat using Guid(fda2c4e2fb2230c4a89413ae2d5dd857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12104d6c467fbe0cf92b556a568030b3') in 0.005662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideLamp_02.mat
+  artifactKey: Guid(53dd8d62ff742604f96643e31a1b2ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideLamp_02.mat using Guid(53dd8d62ff742604f96643e31a1b2ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3bc9696d98a386cc397c2cc50d284d') in 0.006525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcWall_B_02.mat
+  artifactKey: Guid(6e05b7c08bc14b74b86b6a263551233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcWall_B_02.mat using Guid(6e05b7c08bc14b74b86b6a263551233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97747f5e7f1b4dd2ce973ec5f3a5a392') in 0.008862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Decal_A.mat
+  artifactKey: Guid(6bcbb5debd0fc454288846a864e448e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Decal_A.mat using Guid(6bcbb5debd0fc454288846a864e448e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add9438dd893d9cc53a3229b018ef2e0') in 0.006802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A01.mat
+  artifactKey: Guid(3c1ff44a8b3264446a9aa4ebab02cebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A01.mat using Guid(3c1ff44a8b3264446a9aa4ebab02cebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c41effbac662b3da52a2bd7e26789') in 0.005245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Chair.mat
+  artifactKey: Guid(95e78ddb64a5a024da6c0fb5344807e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Chair.mat using Guid(95e78ddb64a5a024da6c0fb5344807e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5d09d0485ab0b69b5bbec3d50b5f6e') in 0.004808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideFrame_B.mat
+  artifactKey: Guid(d28e958bed457774db2ea9bf340f1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideFrame_B.mat using Guid(d28e958bed457774db2ea9bf340f1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f2385d47882be5fe575512c48aceb9') in 0.004710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Carpet_01.mat
+  artifactKey: Guid(1982381430804cf4e9f7e3256eb59d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Carpet_01.mat using Guid(1982381430804cf4e9f7e3256eb59d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a41710a822feb15f9b7a855aa2ebe7f') in 0.009102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_G.mat
+  artifactKey: Guid(1eadec2867867cc4195ebdf1466cb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_G.mat using Guid(1eadec2867867cc4195ebdf1466cb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3792e3f8c69ad8e5a55c68664b8ef071') in 0.005036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideGlass.mat
+  artifactKey: Guid(329b717eb7bba694abb163577e760766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideGlass.mat using Guid(329b717eb7bba694abb163577e760766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911e5452d74bb84435eb58279a1d011a') in 0.006531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Ceiling_A.mat
+  artifactKey: Guid(a44c79f3ff6addf42aec73c6f852f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Ceiling_A.mat using Guid(a44c79f3ff6addf42aec73c6f852f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ade02c00c23462cc3d8b8fa03bc3b40') in 0.005230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A03.mat
+  artifactKey: Guid(cbd3f8da0a40fd44790a5015d2329db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A03.mat using Guid(cbd3f8da0a40fd44790a5015d2329db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf1a756e703992510178ab4a31ce78e') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcWindow_B.mat
+  artifactKey: Guid(1906d2780935efc4db2d7d3d7cee0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_ArcWindow_B.mat using Guid(1906d2780935efc4db2d7d3d7cee0d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b42f0240e93bda0bf0142246165b92') in 0.005141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_A_03.mat
+  artifactKey: Guid(ef7bb642a11c213458e71897ca2981a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_A_03.mat using Guid(ef7bb642a11c213458e71897ca2981a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0513b72733965de42386da34164b3dae') in 0.005568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Frame_H.mat
+  artifactKey: Guid(7243be3a5dca4394fbf7e74a11912d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_Frame_H.mat using Guid(7243be3a5dca4394fbf7e74a11912d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65f4d29a967a8dbdd553d439734f1c2') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCeiling_A.mat
+  artifactKey: Guid(e4ec3054f3e71904899ef5a700a4a6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCeiling_A.mat using Guid(e4ec3054f3e71904899ef5a700a4a6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d22511fa6371abfbc92cb5dadc9d23') in 0.005003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_IndiseArcWindow_A.mat
+  artifactKey: Guid(b5708c514a72b414690ce26ceac2eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_IndiseArcWindow_A.mat using Guid(b5708c514a72b414690ce26ceac2eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4552f152e61ffa983fe93c73084ad2') in 0.006148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideTheCross_A.mat
+  artifactKey: Guid(ba37dc103d5812d4e9250b31875d3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideTheCross_A.mat using Guid(ba37dc103d5812d4e9250b31875d3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6dc2c1a4f7a02c3ca7b5bc82bbcfc8') in 0.004904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A02.mat
+  artifactKey: Guid(f32f32f7928f5254dab85e1f89c2dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsideCandlestick_A02.mat using Guid(f32f32f7928f5254dab85e1f89c2dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3e7276436ded5fd8e6c596510b24a') in 0.004972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_F.mat
+  artifactKey: Guid(3d3a6212c4823fd40bcce518c497208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasiliaCathedral-BuiltInRP/Materials/BC_InsidePillar_F.mat using Guid(3d3a6212c4823fd40bcce518c497208f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5d50b92cd857def49a5058a3f00ffb') in 0.005011 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001033 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (620ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 3_SM': fallback shader 'Hidden/FXAA II' not found
+Shader 'Hidden/FXAA Preset 2_SM': fallback shader 'Hidden/FXAA II' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (4.7 MB). Loaded Objects now: 2739.
+Memory consumption went from 230.5 MB to 225.8 MB.
+Total: 3.349875 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.031334 ms MarkObjects: 2.354917 ms  DeleteObjects: 0.860333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.587197 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Cliff (Layered Rock) 23d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(0fbf0ab794c491444a43c0a62ae8135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Cliff (Layered Rock) 23d3aba195e4d26ee.terrainlayer using Guid(0fbf0ab794c491444a43c0a62ae8135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d444948cd9cf5a5aca7ecd9d637bdac') in 0.081527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GoodDirt 2(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(a693c1ac744df8a4f8570b0ed56cec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GoodDirt 2(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(a693c1ac744df8a4f8570b0ed56cec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c623c1bd22ffc15837f93e544613bf') in 0.004868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass&Rock 2(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(1165684feaeb13145a5c2060c8357bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass&Rock 2(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(1165684feaeb13145a5c2060c8357bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c9e5b1a2a7fe9b8ccb940d0cfaf02d') in 0.006101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass&Rock 23d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(c8dc0490305e5934793b752dbd5fe1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass&Rock 23d3aba195e4d26ee.terrainlayer using Guid(c8dc0490305e5934793b752dbd5fe1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a28bf1aea3770d3893335b6d51a31e7') in 0.005382 seconds 
