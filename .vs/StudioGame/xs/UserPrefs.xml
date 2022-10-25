@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{1D34790E-08B4-A16C-D2B6-8AF411916244}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.3/Runtime/Interaction/XRInteractionManager.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.3/Runtime/Interaction/XRInteractionManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudioGame" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7d094e50-576d-4b65-a529-14ab957c2952" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

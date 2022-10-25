@@ -113,6 +113,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
@@ -338,6 +339,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/MonKey.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEditorBridge.007.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.InternalAPIEngineBridge.007.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -356,10 +358,20 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Tutorials.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.Oculus.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
