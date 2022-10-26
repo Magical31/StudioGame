@@ -1,18 +1,32 @@
 ﻿<Properties StartupConfiguration="{1D34790E-08B4-A16C-D2B6-8AF411916244}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ProCore/ProBuilder/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARTnGAME/SkyMaster/Scripts/V1.0 Scripts/Helper scripts/MouseLookSKYMASTER.cs">
     <Files>
       <File FileName="Assets/MainMenu.cs" Line="16" Column="27" />
-      <File FileName="Assets/ProCore/ProBuilder/readme.txt" Line="5" Column="56" />
+      <File FileName="Assets/ProCore/ProBuilder/readme.txt" Line="19" Column="7" />
+      <File FileName="Assets/BasiliaCathedral-BuiltInRP/Scripts/PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/ARTnGAME/SkyMaster/Scripts/V1.0 Scripts/Helper scripts/MouseLookSKYMASTER.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StudioGame" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="ProCore" expanded="True">
-                <Node name="ProBuilder" expanded="True">
-                  <Node name="readme.txt" selected="True" />
+              <Node name="ARTnGAME" expanded="True">
+                <Node name="SkyMaster" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="V1.0 Scripts" expanded="True">
+                      <Node name="Helper scripts" expanded="True">
+                        <Node name="MouseLookSKYMASTER.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
                 </Node>
+              </Node>
+              <Node name="BasiliaCathedral-BuiltInRP" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="ProCore" expanded="True">
+                <Node name="ProBuilder" expanded="True" />
               </Node>
             </Node>
           </Node>

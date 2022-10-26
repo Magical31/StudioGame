@@ -58,78 +58,78 @@
   <ItemGroup>
     <Compile Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/Editor/ColorCorrectionCurvesEditorSM.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/WelcomeScreenInitializerBase.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FreezeTransform.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/ChangeMainViewButton.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairUV.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ProBuilderize.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/GuiSectionBase.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_MaterialSelection.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/OpenUrlLink.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_MissingScriptEditor.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildSharedIndices.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/LastUpdateButton.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_StripProBuilderScripts.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_SetPivot.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/ClearUnusedAttributes.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Window/pb_ProBuilderMenuItems.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/ClickableElement.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairMeshReferences.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/GuiSection.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/ExampleWelcomeScreen.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/OpenUrlButton.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/Utilities/BackgroundTaskRunner.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_ConnectEdges.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_UpdateAvailable.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/Utilities/LayoutHelper.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipEdge.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_MaterialSelection.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/LaunchSceneButton.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_Triangulate.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/SetCustomUnwrapParams.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/Addons/pb_Fbx.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/GuiElements/ScrollViewGuiSection.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/PreferenceDefinition/EnumProjectEditorPreferenceDefinition.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_ConformNormals.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipNormals.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/ProductPreferenceBase.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_InvertSelection.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_EdgeSelection.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/Utilities/AssetPathResolver.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_BooleanInterface.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ExportObj.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/PreferenceDefinition/ProjectEditorPreferenceDefinitionBase.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_VertexMergeWeld.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_MakeMeshAsset.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/PreferenceDefinition/ToggleProjectEditorPreferenceDefinition.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_MergeFaces.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_DetachDeleteFace.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/PreferenceDefinition/TextProjectEditorPreferenceDefinition.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/CustomAction.cs" />
     <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/PreferenceDefinition/HandleOnEditorPersistedValueChange.cs" />
     <Compile Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/Editor/BloomEditorSkyMaster.cs" />
-    <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/Utilities/HttpRequestManager.cs" />
-    <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/ProductWelcomeScreenBase.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_EdgeSelection.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_SetPivot.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_UpdateAvailable.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_BooleanInterface.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/pb_MaterialSelection.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_DetachDeleteFace.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/SetCustomUnwrapParams.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_InvertSelection.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ExportObj.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/CustomAction.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_MissingScriptEditor.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_ExpandSelection.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_MakeMeshAsset.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ResetEntityMaterials.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FreezeTransform.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_MaterialSelection.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipEdge.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_ConnectEdges.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/CreateShadowObject.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairMeshReferences.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_ScenePostProcessor.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/ClearUnusedAttributes.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairUV.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ProBuilderize.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/RenameNewObjects.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_ConformNormals.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_VertexMergeWeld.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_Triangulate.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_BridgeEdges.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/Addons/pb_Fbx.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_MergeFaces.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildSharedIndices.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipNormals.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Window/pb_ProBuilderMenuItems.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_CleanLeakedMeshes.cs" />
+    <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/Utilities/HttpRequestManager.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_ExpandSelection.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/pb_ScenePostProcessor.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" />
+    <Compile Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/Editor/WelcomeScreen/ProductWelcomeScreenBase.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Editor/CreateShadowObject.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_StripProBuilderScripts.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_ExtrudeElement.cs" />
-    <Compile Include="Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll" />
@@ -393,26 +393,23 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="KdTreeLib">
       <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
       <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Poly2Tri">
       <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
       <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
@@ -422,6 +419,9 @@
     </Reference>
     <Reference Include="ProBuilderEditor-Unity5">
       <HintPath>Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
