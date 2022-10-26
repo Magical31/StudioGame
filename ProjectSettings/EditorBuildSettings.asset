@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8ead26316b24c47e8a53657cf2126e84
+  - enabled: 1
+    path: Assets/BasiliaCathedral-BuiltInRP/Scenes/Basilica Cathedral Scenes.unity
+    guid: 5618135f9663f3548b9c2f4f43c59197
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

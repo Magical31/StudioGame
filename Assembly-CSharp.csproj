@@ -103,34 +103,126 @@
     <Compile Include="Assets/BasiliaCathedral-BuiltInRP/Animations/DoorScript.cs" />
     <Compile Include="Assets/BasiliaCathedral-BuiltInRP/Scripts/MouseLook.cs" />
     <Compile Include="Assets/BasiliaCathedral-BuiltInRP/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+    <Compile Include="Assets/MainMenu.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/IcoBumpin.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Runtime Editing/RuntimeEdit.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Misc/HueCube.cs" />
+    <Compile Include="Assets/ProCore/ProBuilder/API Examples/Procedural Mesh/ExtrudeRandomEdges.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/SpecialSkillsEffectsPack/Shader_ForEffects/Shader_Decal.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_ScrollHighlight.shader" />
     <None Include="Assets/ARTnGAME/GI PROXY/Crytek Atrium/Crytek Atrium copyright.txt" />
+    <None Include="Assets/ProCore/ProBuilder/readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/FXAAPreset4.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ColorCorrection/ColorCorrectionCurvesSM.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/LensFlareCreateSM.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+    <None Include="Assets/ProCore/ProBuilder/About/ThirdPartyLicenses.txt" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/BlendForBloomSM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ContrastFilter/LuminanceSM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_UnlitVertexColor.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ContrastFilter/ApplySM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_ReferenceUnlit.shader" />
     <None Include="Assets/FREE Food Pack/Shaders/Food.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/FXAAPreset5.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_VertexPicker.shader" />
     <None Include="Assets/SpecialSkillsEffectsPack/Shader_ForEffects/Shader_DistortionEffect.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ContrastFilter/MinMaxReductionSM.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ContrastFilter/AdaptationSM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll" />
+    <None Include="Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_UnlitSolidColor.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ColorCorrection/ColorCorrectionCurvesSimpleSM.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/ProCore/ProBuilder/About/Font/SIL Open Font License.txt" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/FXAA3Console 1.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/DiffuseTextureBlend.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/Shafts/SunShaftsCompositeSM.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_FaceHighlight.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_SmoothingPreview.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_HideVertices.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_VertexShader.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_FacePicker.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/NFAA 1.shader" />
+    <None Include="Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/README.txt" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_StandardVertexColor.shader" />
+    <None Include="Assets/ProCore/ProBuilder/About/pc_AboutEntry_ProBuilder.txt" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/BrightPassFilter2SM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_NormalPreview.shader" />
+    <None Include="Assets/ProCore/ProBuilder/About/changelog.txt" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/DLAA 1.shader" />
     <None Include="Assets/ARTnGAME/Common Tools/WelcomeScreen/LICENSE.txt" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/Shafts/SimpleClearSM.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_TransparentOverlay.shader" />
     <None Include="Assets/SpecialSkillsEffectsPack/Shader_ForEffects/Shader_IntegratedEffect.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ColorCorrection/ColorCorrectionSelectiveSM.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/pb_SelectionPicker.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/FXAA3.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntiAliasing/SSAA 1.shader" />
     <None Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/BlurAndFlaresSM.shader" />
+    <None Include="Assets/ProCore/ProBuilder/Shader/DiffuseVertexColor.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -369,6 +461,21 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderMeshOps-Unity5">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="ProBuilderCore-Unity5">
+      <HintPath>Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
