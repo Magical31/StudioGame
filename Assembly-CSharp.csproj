@@ -110,13 +110,13 @@
     <Compile Include="Assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiButtonScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/AntialiasingSkyMaster.cs" />
+    <Compile Include="Assets/BasiliaCathedral-BuiltInRP/Scripts/MoveCamera.cs" />
     <Compile Include="Assets/ARTnGAME/GI PROXY/Scripts/HELPER SCRIPTS/Particle Dynamics Magic/Version 2.3/HelperScripts/CharacterController/FirstPersonControllerPDM.cs" />
     <Compile Include="Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/ARTnGAME/GI PROXY/Scripts/HELPER SCRIPTS/ControlGIPROXY.cs" />
     <Compile Include="Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/ContrastStretchSkyMaster.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
-    <Compile Include="Assets/BasiliaCathedral-BuiltInRP/Scripts/MouseLook.cs" />
     <Compile Include="Assets/SpecialSkillsEffectsPack/Scripts/VariousRotateObject.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/SpecialSkillsEffectsPack/Scripts/ForEffects/ShieldActivate.cs" />
