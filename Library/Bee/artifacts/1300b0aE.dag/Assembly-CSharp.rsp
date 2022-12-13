@@ -404,7 +404,7 @@
 "Assets/ARTnGAME/SkyMaster/Scripts/V2.0 Scripts/Filters/Shafts/SunShaftsSkyMaster.cs"
 "Assets/ARTnGAME/SkyMaster/Scripts/V2.1 Scripts/Filters/Bloom/BloomSkyMaster.cs"
 "Assets/BasiliaCathedral-BuiltInRP/Animations/DoorScript.cs"
-"Assets/BasiliaCathedral-BuiltInRP/Scripts/MoveCamera.cs"
+"Assets/BasiliaCathedral-BuiltInRP/Scripts/MouseLook.cs"
 "Assets/BasiliaCathedral-BuiltInRP/Scripts/PlayerMovement.cs"
 "Assets/MainMenu.cs"
 "Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs"
